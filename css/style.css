@@ -1,0 +1,250 @@
+.phrase{
+  display: flex;
+  color: Black;
+  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-size:20px;
+  margin: 40px 100px 320px;
+  margin-bottom: 100px;
+}
+.hola{
+  text-align: center;
+  background-color: #FFFA4D;
+  padding: 03rem;
+  border-width: 02px;
+  border-style: solid;
+  border-color:#EE82EE;
+  color:#800080;
+  font-weight: bold;
+  font-family:
+  color:#EE82EE;
+  font-weight:lighter;
+  font-size: 150px;
+  margin-bottom: 0;
+  }
+.name{
+  color:#008000;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 150px;
+  margin-top: 03px
+  }
+.mot {
+  color: rgb(89, 2, 236);
+  font-weight:lighter;
+  font-size: 70px;
+
+    }
+li {
+    display:  flex;
+    border: 0.0rem solid beige;
+    padding: 0.9rem;
+    flex-direction: row-reverse ;
+    align-items: row-reverse;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.about_image{
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px 75px 100px;
+  margin-top: 04px;
+}
+body {
+   background-color: #F7E2E2;
+   }
+.about_social{
+      display: flex;
+      justify-content: flex-end;
+      margin:10px;
+      gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+       }
+h1{
+   margin: 25px 50px 75px 100px;
+   }
+h3{
+   display: flex;
+   font-style: oblique;
+   font-size: 40px;
+   margin-top: 250px;
+}
+h4{
+  display:flex;
+  font-size: 30px;
+  margin-top: 95px;
+  margin-block: 118px;
+  }
+
+.Work_group{
+    display:  flex;
+    text-align:center;
+    margin-top: 79px;
+}
+.Work_group{
+    display: flex;
+    justify-content: center;
+    font-family: Anton-Regular;
+    color: Black;
+    font-weight: lighter;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 200px;
+}
+
+.work_label{
+    display: flex;
+    display: contents;
+    font-size: 50px;
+    margin-bottom: -98px;
+}
+
+.description{
+    text-align: left;
+
+}
+.pho{
+    display:flex;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px 75px 100px;
+    border-radius: 20px;
+
+}
+.rounded{
+  border-radius: 20px;
+}
+.des{
+    display:flex;
+    font-size: 30px;
+    margin-inline: 1168px;
+  }
+
+    #contact {
+    padding: 7vh 0 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 7vw;
+}
+
+.form label {
+    font-size: 0.85rem;
+}
+
+.form_input {
+    padding: 1rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+.form_input::placeholder {
+    color: rgba(2,54,94,0.5);
+}
+
+.form_submit {
+    align-self: center;
+    padding: 1.25rem 3.5rem;
+    margin: 1rem 0;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    background: #02365E;
+    color: white;
+    letter-spacing: 0.025rem;
+    cursor: pointer;
+}
+
+.work_text{
+  width: 500px;
+}
+
+#work{
+  margin-bottom: -98px;
+}
+h5{
+margin-bottom: 150px;
+}
+.career_group {
+     max-width : 50rem;
+     margin: 0 auto;
+   }
+
+   .career_item {
+     display:  flex;
+     justify-content: center;
+   }
+
+   .career_timeline {
+     flex-basis: 10%;
+     position: relative;
+     text-align: center;
+   }
+
+   .career_timeline:before {
+     content: " ";
+     display:  block;
+     width: 1.25rem;
+     height: 1.25rem;
+     border: 3px solid #02365E;
+     background: white;
+     border-radius: 50%;
+     margin: 0 auto;
+   }
+   .career_timeline:after {
+
+      content: " ";
+      position: absolute;
+      display:  block;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 100%;
+      width: 3px;
+      background: #02365E;
+      z-index: -1;
+    }
+
+    .career_date {
+      text-align: right;
+      flex-basis: 45%;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: normal;
+    }
+
+    .career_text {
+      flex-basis: 45%;
+      padding-bottom: 7rem;
+    }
+
+    .career_text h5 {
+      margin: 0;
+    }
+    .career_item:nth-child(even) {
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+    .career_item:nth-child(even) .career_date{
+      text-align: left;
+    }
+
+    .career_item:last-child .career_timeline:last-child {
+      display: none;
+    }
+    footer {
+        	padding: 2em 0;
+        	text-align: center;
+        }
