@@ -1,6 +1,6 @@
 .phrase{
   display: flex;
-  color: Black;
+  color: #000000;
   font-family: 'Merriweather', serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Source Code Pro', monospace;
@@ -15,14 +15,13 @@
   border-width: 02px;
   border-style: solid;
   border-color:#EE82EE;
-  color:#800080;
+  color: #800080;
   font-weight: bold;
-  font-family:
-  color:#EE82EE;
-  font-weight:lighter;
+  font-weight: ligther;
   font-size: 150px;
   margin-bottom: 0;
   }
+
 .name{
   color:#008000;
   font-weight: lighter;
@@ -31,32 +30,37 @@
   margin-bottom: 150px;
   margin-top: 03px
   }
+
 .mot {
   color: rgb(89, 2, 236);
   font-weight:lighter;
   font-size: 70px;
-
-    }
+ }
+ 
 li {
     display:  flex;
     border: 0.0rem solid beige;
     padding: 0.9rem;
-    flex-direction: row-reverse ;
+    flex-direction: row-reverse;
     align-items: row-reverse;
 }
+
 ul{
     display: flex;
     justify-content: space-between;
 }
+
 .about_image{
   display: flex;
   justify-content: center;
   margin: 50px 100px 75px 100px;
   margin-top: 04px;
 }
+
 body {
    background-color: #F7E2E2;
    }
+
 .about_social{
       display: flex;
       justify-content: flex-end;
