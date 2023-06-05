@@ -6,7 +6,7 @@ h1{
   margin: 25px 50px 75px 100px;
 }
 
-.hola{
+.titre{
   font-family: monospace;
   text-align: center;
   background-color: #fffa5f;
@@ -16,7 +16,7 @@ h1{
   margin-bottom: 0;
 }
 
-.name{
+.soustitre{
   color:#000208;
   font-weight: lighter;
   text-align: center;
