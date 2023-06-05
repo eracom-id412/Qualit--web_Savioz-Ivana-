@@ -2,17 +2,14 @@ body {
   background-color: #ffffff;
 }
 
-h1{
-  margin: 25px 50px 75px 100px;
-}
-
 .titre{
+  justify-content: flex-end;
   font-family: monospace;
-  text-align: center;
-  background-color: #fffa5f;
+  text-align: end;
+  background-color: #4bfa05;
   color:rgb(89, 2, 236);
   font-weight: bold;
-  font-size: 150px;
+  font-size: 80px;
   margin-bottom: 0;
 }
 
@@ -20,9 +17,16 @@ h1{
   color:#000208;
   font-weight: lighter;
   text-align: center;
-  font-size: 70px;
-  margin-bottom: 172px;
-  margin-top: -17px
+  font-size: 20px;
+  margin-bottom: 147px;
+  margin-top: 3px
+}
+
+.about_image{
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px 75px 100px;
+  margin-top: 04px;
 }
 
 h3{
@@ -30,6 +34,23 @@ h3{
   font-style: oblique;
   font-size: 40px;
   margin-top: 250px;
+  color: magenta;
+}
+
+.Work_group{
+  display: flex;
+  justify-content: center;
+  font-family: Anton-Regular;
+  color: Black;
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 200px;
+  display:  flex;
+  text-align:center;
+  margin-top: 79px;
+  gap: 80px;
 }
 
 h4{
@@ -50,17 +71,6 @@ ul{
 
 }
 
-.phrase{
-  display: flex;
-  color: #000000;
-  font-family: 'Merriweather', serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Code Pro', monospace;
-  font-size:20px;
-  margin: 40px 100px 320px;
-  margin-bottom: 100px;
-}
-
 .mot {
   color: rgb(89, 2, 236);
   font-weight:lighter;
@@ -75,13 +85,6 @@ li {
   align-items: row-reverse;
 }
 
-.about_image{
-  display: flex;
-  justify-content: center;
-  margin: 50px 100px 75px 100px;
-  margin-top: 04px;
-}
-
 .about_social{
   display: flex;
   justify-content: flex-end;
@@ -89,25 +92,8 @@ li {
   gap: 10px;
   gap: 10px 20px; /* row-gap column gap */
   row-gap: 10px;
-  column-gap: 20px;
-}
-
-.Work_group{
-  display:  flex;
-  text-align:center;
-  margin-top: 79px;
-}
-
-.Work_group{
-  display: flex;
-  justify-content: center;
-  font-family: Anton-Regular;
-  color: Black;
-  font-weight: lighter;
-  font-size: 12px;
-  font-family: 'Merriweather', serif;
-  font-family: 'Source Code Pro', monospace;
-  margin-bottom: 200px;
+  column-gap: 47px;
+  margin-top: 180px;
 }
 
 .work_label{
@@ -173,8 +159,8 @@ li {
   margin: 1rem 0;
   border-radius: 10rem;
   text-transform: uppercase;
-  background: #02365E;
-  color: white;
+  background: #4bfa05;
+  color: rgb(3, 0, 0);
   letter-spacing: 0.025rem;
   cursor: pointer;
 }
@@ -184,8 +170,9 @@ li {
 }
 
 #work{
-margin-bottom: -98px;
+margin-bottom: 309px;
 }
+
 h5{
  margin-bottom: 150px;
 }
