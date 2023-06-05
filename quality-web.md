@@ -10,7 +10,7 @@ Améliorations en A11Y et Performance.
 
 °Les couleurs qui existent aujourd'hui ne sont pas faciles à distinguer pour certaines personnes, en raison de leurs contrastes. 
 
-°La taille des texte 
+La taille des texte 
 
 
 ### A11Y - Amélioration 1
