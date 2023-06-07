@@ -59,13 +59,15 @@ Améliorer la lisibilité en vue d'éventuelles modifications
 
 ### Analyse de ma page (2 pts)
 
-- Taille globale de votre page.
+1- Taille globale de votre page.
 -6 ko
 
-- Répartition entre les différents contenus (images, fontes, html/css/js...)
+Répartition entre les différents contenus (images, fontes, html/css/js...)
 2_Les images dans cette page, sont des images en general PNG - JPG
 
-- Vitesse de chargement
+3-LazyLoad 
+
+4-Vitesse de chargement: 
 
 ### Performance - Amélioration 1
 
@@ -79,4 +81,7 @@ Description + Pourquoi faire cette amélioration? (2 pts)
 
 Indiquer le gain de performance mesuré (1 pt)
 
----
+### Performance - Amélioration 3
+LazyLoad 
+
+Retarde le chargement de l'image jusqu'à ce que l'utilisateur défile à une distance calculée de la fenêtre.
