@@ -10,9 +10,11 @@ Améliorations en A11Y et Performance.
 
 1_Les couleurs qui existent aujourd'hui ne sont pas faciles à distinguer pour certaines personnes, en raison de leurs contrastes. 
 
-2_La taille des texte 
+2_La taille de police
 
-3_Organisations de CSS - HTML (encore de travail a realiser)PRIVATE
+3.Texte alternatif 
+
+4_Organisations de CSS - HTML (encore de travail a realiser)PRIVATE
 
 
 ### A11Y - Amélioration 1
@@ -32,10 +34,15 @@ Changements de taille de textes et certains de font.
 Dans quel cas cela aide l'utilisateur ? (2 pts)
 A lire de maniere facilment les textes et informations, l'eleccions pour les incones de B-W c'est pour faciliter la lecture de comunication en le cas de chercher plus d'information.  
 
+### A11Y - Amélioration 3
+
+Description de votre amélioration: (2 pts)
+Dans quel cas cela aide l'utilisateur ? (2 pts)
 ---
----
----
----
+### A11Y - Amélioration 4
+Description de votre amélioration: (2 pts)
+Dans quel cas cela aide l'utilisateur ? (2 pts)
+
 
 ## Performance
 
