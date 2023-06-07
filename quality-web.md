@@ -10,11 +10,11 @@ Améliorations en A11Y et Performance.
 
 1_Les couleurs qui existent aujourd'hui ne sont pas faciles à distinguer pour certaines personnes, en raison de leurs contrastes. 
 
-2_La taille de police
+2_La taille de police - COLORS
 
-3.Texte alternatif 
+3.Texte alternatif (ALT)
 
-4_Organisations de CSS - HTML (encore de travail a realiser)PRIVATE
+4_Structure HTML - CSS
 
 
 ### A11Y - Amélioration 1
@@ -37,14 +37,25 @@ A lire de maniere facilment les textes et informations, l'eleccions pour les inc
 ### A11Y - Amélioration 3
 
 Description de votre amélioration: (2 pts)
+Les ALT en chaque img 
+
 Dans quel cas cela aide l'utilisateur ? (2 pts)
+Il permet aux moteurs de recherche de mieux explorer et classer votre site web, et aide les logiciels de lecture à décrire les images pour les lecteurs malvoyants.
+
 ---
 ### A11Y - Amélioration 4
 Description de votre amélioration: (2 pts)
+Mon HTML comme mon CSS, comme il s'agissait de premier cree, j'ai dû apporter de nombreuses modifications à la structure pour la rendre plus lisible. 
+
 Dans quel cas cela aide l'utilisateur ? (2 pts)
+Améliorer la lisibilité en vue d'éventuelles modifications
 
 
-## Performance
+
+
+
+
+## PERFORMANCE
 
 ### Analyse de ma page (2 pts)
 
